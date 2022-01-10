@@ -1,2 +1,4 @@
 # Knapsack-FPTAS-DynamicProgramming
 Solving Knapsack problem using Fully Polynomial Time Approximation Scheme with Dynamic Programming
+
+The 0/1 knapsack problem is one among the combinatorial optimization problems for which multiple algorithms to effectively find the solution were developed along with the approximation schemes to find the solution close to the optimal solution. As this problem has a combinatorial structure, a pseudo-polynomial time algorithm using dynamic programming can solve almost every instance of the problem. It is difficult to solve the problem in polynomial time when the profits of the items are arbitrarily large. In this case, a fully polynomial time approximation scheme can be used to give a solution close to the optimal solution and the obtained approximate solution will be bounded by the number of items(n) and the precision error(ε) rather than on the maximum profit(P).
